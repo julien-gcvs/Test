@@ -1,0 +1,6 @@
+port_pontrieux_homepage:
+    path:     /
+    defaults: { _controller: PortPontrieuxBundle:Default:index }
+port_pontrieux_tarifs:
+    path:     /tarifs
+    defaults: { _controller: PortPontrieuxBundle:Tarifs:index }

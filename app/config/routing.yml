@@ -1,0 +1,7 @@
+port_pontrieux:
+    resource: "@PortPontrieuxBundle/Resources/config/routing.yml"
+    prefix:   /port
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
